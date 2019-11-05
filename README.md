@@ -16,4 +16,5 @@ download: https://pan.baidu.com/s/1XB67pSTztDV2mHo194dlbg 提取码：jdgr
 3. 运行TestView项目
 
 # picture
-
+![avatar](http://chuantu.xyz/t6/703/1572949601x1031866013.png)
+![avatar](http://chuantu.xyz/t6/703/1572949659x1031866013.png)

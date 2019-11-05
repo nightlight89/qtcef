@@ -42,9 +42,13 @@ int QCefInit(int& argc, char** argv)
     if (exit_code >= 0) {
         return exit_code;
     }
+    if (IsSubprocess(argc, argv)) {
+        return -1;
+    }
     CefSettings settings;
     QCefInitSettings(settings);
     CefInitialize(mainArgs, settings, app, nullptr);
+
     return 0;
 }
 

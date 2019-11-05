@@ -30,6 +30,13 @@ CP_CEFVIEWSHARED_EXPORT void loadUrl(QString url)
     web->show();
 }
 
+CP_CEFVIEWSHARED_EXPORT void loadUrlWithTab(QString url)
+{
+    QCefBrowserWidget *web = new QCefBrowserWidget(url);
+    web->setWindowFlags(Qt::WindowStaysOnTopHint);
+    web->show();
+}
+
 CP_CEFVIEWSHARED_EXPORT CefBrowserStackWidget* insertOnlyWeb(QString url, QGridLayout *layout, QWidget* parent, JsParamCallback js, const void* user_data)
 {
     CefBrowserStackWidget *web = new CefBrowserStackWidget(url, parent);

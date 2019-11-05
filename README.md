@@ -2,7 +2,7 @@
 cef2623 支持标签化显示、flash、js与c++交互等
 
 # build_file
-download: https://pan.baidu.com/s/1XB67pSTztDV2mHo194dlbg 提取码：jdgr 
+download: https://pan.baidu.com/s/1kXk7E6QQ3ztZWAK9v4skaw 提取码：e8be 
 
 # step
 1. download build_file
@@ -19,3 +19,4 @@ download: https://pan.baidu.com/s/1XB67pSTztDV2mHo194dlbg 提取码：jdgr
 # picture
 ![avatar](http://chuantu.xyz/t6/703/1572949601x1031866013.png)
 ![avatar](http://chuantu.xyz/t6/703/1572949659x1031866013.png)
+![avatar](http://chuantu.xyz/t6/703/1572950901x1033347913.png)

@@ -14,9 +14,12 @@ int main(int argc, char *argv[])
         if(web)
             web(argc, argv, result);
     }
+    if(result==-1){
+        return 0;
+    }
 
     Widget w;
-    w.show();
+    w.hide();
 
     int app_code = a.exec();
 

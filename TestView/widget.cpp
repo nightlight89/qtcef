@@ -17,6 +17,13 @@ Widget::Widget(QWidget *parent) :
             web("https://www.baidu.com/");
     }
 
+    typedef void (*LoadUrlWithTab)(QString); //定义函数指针
+    if(cefview_lib.load()){
+        LoadUrlWithTab web = LoadUrlWithTab(cefview_lib.resolve("loadUrlWithTab"));
+        if(web)
+            web("https://www.baidu.com/");
+    }
+
 }
 
 Widget::~Widget()
